@@ -6,9 +6,13 @@
 nav{
     background: white;
 }
-header div {
-    z-index: 2;
+header .main-container{
+    background: white;
     margin: 8px;
+}
+header .navbar,img,a {
+    z-index: 2;
+    margin: 0px;
     background: white;
     display: flex;
     justify-content: space-between;
@@ -16,9 +20,69 @@ header div {
 header #menu{
     margin-top: 16px;
     width: 50%;
+    height: 40px;
     background: white;
 }
 header ul{
+    margin: 8px auto;
+    
+}
+header li{
     list-style: none;
-    display: none;
+    background: white;
+    text-align: center;
+    width: 100%;
+    padding: 8px;
+    margin: auto;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.logo{
+    height: 80px;
+}
+@media (min-width:900px){
+    
+    nav{
+        background: white;
+    }
+    header .main-container{
+        background: white;
+        margin: 8px;
+        display: flex;
+    }
+    header .navbar,img,a {
+        flex: 1;
+        z-index: 2;
+        margin: 0px;
+        background: white;
+        display: flex;
+        justify-content: space-between;
+    }
+    header #menu{
+        margin-top: 16px;
+        width: 50%;
+        height: 40px;
+        background: white;
+        display: none;
+    }
+    header ul{
+        flex: 2;
+        display: flex;
+        margin: 8px auto;
+        
+    }
+    header li{
+        list-style: none;
+        background: white;
+        
+        padding: 8px;
+        margin: 0px;;
+        display: inline;
+    
+    }
+    .logo{
+        flex: 1;
+        height: 80px;
+    }
 }
