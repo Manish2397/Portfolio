@@ -1,0 +1,24 @@
+*{  background: #4eb5f1;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    background: white;
+}
+header div {
+    z-index: 2;
+    margin: 8px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+}
+header #menu{
+    margin-top: 16px;
+    width: 50%;
+    background: white;
+}
+header ul{
+    list-style: none;
+    display: none;
+}
