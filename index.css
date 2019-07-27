@@ -1,88 +1,69 @@
-*{  background: #4eb5f1;
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Patua+One&display=swap');
+/* font-family: 'Patua One', cursive;
+font-family: 'Didact Gothic', sans-serif; */
+
+*{
+    font-family: 'Didact Gothic', sans-serif; 
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
-nav{
-    background: white;
-}
-header .main-container{
-    background: white;
-    margin: 8px;
-}
-header .navbar,img,a {
-    z-index: 2;
-    margin: 0px;
-    background: white;
+.header-container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
     display: flex;
-    justify-content: space-between;
-}
-header #menu{
-    margin-top: 16px;
-    width: 50%;
-    height: 40px;
-    background: white;
-}
-header ul{
-    margin: 8px auto;
-    
-}
-header li{
-    list-style: none;
-    background: white;
-    text-align: center;
-    width: 100%;
-    padding: 8px;
-    margin: auto;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
 
 }
-.logo{
-    height: 80px;
+.header-container video{
+    object-fit: fill;
+    width: 100vw;
+    height: 100vh;
+    z-index: -5;
 }
-@media (min-width:900px){
+.navbar{
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    opacity: 0.8;
+    color: white;
+    z-index: 5;
+    display: flex;
+    background: #000;
+}
+.navbar p{
+    font-family: 'Patua One', cursive;
+    word-spacing: 0.3em;
+    letter-spacing: 0.1em;
+    padding: 8px;
+    font-size: 40px;
+    flex: 1;
+}
+.navbar ul{
     
-    nav{
-        background: white;
-    }
-    header .main-container{
-        background: white;
-        margin: 8px;
-        display: flex;
-    }
-    header .navbar,img,a {
-        flex: 1;
-        z-index: 2;
-        margin: 0px;
-        background: white;
-        display: flex;
-        justify-content: space-between;
-    }
-    header #menu{
-        margin-top: 16px;
-        width: 50%;
-        height: 40px;
-        background: white;
-        display: none;
-    }
-    header ul{
-        flex: 2;
-        display: flex;
-        margin: 8px auto;
-        
-    }
-    header li{
-        list-style: none;
-        background: white;
-        
-        padding: 8px;
-        margin: 0px;;
-        display: inline;
-    
-    }
-    .logo{
-        flex: 1;
-        height: 80px;
-    }
+    margin-right: 10px;
+    list-style: none;
+    font-size: 32px;
+}
+.navbar li ,a{
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    display: inline-block;
+}
+
+.profile-info{
+    position: absolute;
+    width: 300px;
+    min-height: 300px;
+    background: white;
+    /* margin: -60vh 60% auto 40%; */
+
+}
+.profile-info img{
+    width: 50px;
+    height: 50px;
+
 }
