@@ -245,6 +245,7 @@ font-family: 'Didact Gothic', sans-serif; */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    z-index: -1;
     /* opacity: .9; */
     
     
@@ -253,4 +254,13 @@ font-family: 'Didact Gothic', sans-serif; */
     font-size: 2rem;
     padding: 1rem 10rem;
     
+}
+.contact-container{
+    z-index: 10;
+    
+    margin-top: -400px;
+    background:rgba(0,0,0,0.8);
+    width: 100vw;
+    min-height: 500px;
+    background-size: cover;
 }
