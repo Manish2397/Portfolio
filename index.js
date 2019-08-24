@@ -10,4 +10,12 @@ $(document).ready(function(){
                                 'opacity':'0.8'})
         }
     })
+    $('#toggle').on('click',function(){
+        if($('.nav-list').css('display')=='none'){
+            $('.nav-list').css('display','block')
+        }
+        else{
+            $('.nav-list').css('display','none')
+        }
+    })
 })
