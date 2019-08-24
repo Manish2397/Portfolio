@@ -110,7 +110,7 @@ font-family: 'Didact Gothic', sans-serif; */
 }
 .about-container{
     width: 100vw;
-    min-height: 60rem;
+    min-height: 900px;
     transform: skewY(-3deg) translate(0px,-50px);
     background: linear-gradient(to right,#403B4A,#E7E9BB);
     z-index: 1;
@@ -118,10 +118,13 @@ font-family: 'Didact Gothic', sans-serif; */
 .about-section{
     /* overflow: hidden; */
     margin: auto;
+    position: absolute;
+    margin-left: 20vw;
+    margin-top: 100px;
     transform: skewY(3deg) translate(0px,70px);
     border: 2px black solid;
     width: 60vw;
-    min-height: 600px;
+    min-height: 500px;
     text-align: center;
     background: url(about2.jpg);
     opacity: 1;
@@ -188,7 +191,7 @@ font-family: 'Didact Gothic', sans-serif; */
 .skills-container{
     
     width: 100vw;
-    min-height: 950px;;
+    min-height: 1000px;;
     transform: skewY(-3deg) translate(0px,-250px);
     background: linear-gradient(to right,#00467F,#A5CC82);
     z-index: 1;

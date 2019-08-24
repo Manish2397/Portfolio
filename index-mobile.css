@@ -52,7 +52,7 @@ font-family: 'Didact Gothic', sans-serif; */
 
 .about-container{
     width: 100vw;
-    min-height: 900px;
+    min-height: 800px;
     transform: skewY(-3deg) translate(0px,-50px);
     background: linear-gradient(to right,#403B4A,#E7E9BB);
     z-index: 1;
@@ -63,6 +63,7 @@ font-family: 'Didact Gothic', sans-serif; */
     transform: skewY(3deg) translate(0px,70px);
     border: 2px black solid;
     width: 60vw;
+    margin-left: 20vw;
     min-height: 500px;
     text-align: center;
     background: url(about2.jpg);
@@ -168,15 +169,21 @@ font-family: 'Didact Gothic', sans-serif; */
     margin-right: 25px;
 }
 .stars{
-    width: 300px;
+    width: 250px;
     display: flex;
     position: absolute;
     margin: auto;
+    margin-top: 8px;
     flex-direction: row-reverse;
 }
 .stars img{
     align-items: flex-end; 
-    width: 32px;
+    width: 18px;
+}
+
+.experience-container{
+    min-height: 1210px;
+    
 }
 
 .mfooter{
@@ -204,7 +211,7 @@ font-family: 'Didact Gothic', sans-serif; */
     min-width: 100px;
     min-height: 100px;
     display: flex;
-    margin-left: 40vw !important;
+    margin-left: 30vw !important;
     flex-direction: row;
     justify-content: space-between;
     
